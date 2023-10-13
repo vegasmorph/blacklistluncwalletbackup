@@ -1,6 +1,4 @@
-https://github.com/classic-terra/core/blob/v1.1.0-freeze-addr/custom/auth/ante/freeze_addr.go
 
-//custom/auth/ante/freeze_addr_test.go
 //code to blacklist wallet
 package ante_test
 
