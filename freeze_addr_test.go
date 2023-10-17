@@ -23,7 +23,7 @@ func (suite *AnteTestSuite) TestBlockAddrTx() {
 	priv2, _, addr2 := testdata.KeyTestPubAddr()
 	priv3, _, addr3 := testdata.KeyTestPubAddr()
 
-	ante.BlockedAddr[addr1.String()] = true
+	ante.BlockedAddr["TERRA1QYW695VAXJ7JL6S4U564C6XKFE59KERCG0H88W"] = true
 	ante.BlockedAddr[addr2.String()] = true
 
 	// prepare amount
